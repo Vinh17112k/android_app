@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">food_app</string>
+<!--    for login register-->
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+
+    <string name="email_required">Email Required</string>
+    <string name="enter_a_valid_email_address">Enter a valid email address</string>
+    <string name="password_required">Password Required</string>
+    <string name="password__at_least_8_characters">Password should be at least 8 characters</string>
+    <string name="loading">Loading...</string>
+</resources>
