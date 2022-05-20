@@ -7,6 +7,9 @@
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/card_background.xml" value="0.1" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/grey_bar.xml" value="0.1" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/grey_btn_background.xml" value="0.1" />
+        <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/ic_action_first.xml" value="0.1215" />
+        <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/ic_action_second.xml" value="0.1215" />
+        <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/ic_action_third.xml" value="0.1215" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/yellow_bar.xml" value="0.1" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/drawable-v24/yellow_btn_background.xml" value="0.1" />
@@ -25,13 +28,15 @@
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_cart.xml" value="0.15" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_intro.xml" value="0.1539855072463768" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_main.xml" value="0.1539855072463768" />
+        <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_main.xml" value="0.11" />
+        <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_new_feed.xml" value="0.25" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_show_detail.xml" value="0.2" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/custom_progress_dialog.xml" value="0.1" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/viewholder_cart.xml" value="0.20416666666666666" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/viewholder_category.xml" value="0.20416666666666666" />
         <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/layout/viewholder_recommended.xml" value="0.20416666666666666" />
+        <entry key="..\:/Ky2Nam4/BTL/Mobile/food_app/app/src/main/res/menu/nav_bar.xml" value="0.14" />
       </map>
     </option>
   </component>

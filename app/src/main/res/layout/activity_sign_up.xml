@@ -114,6 +114,7 @@
                         android:text="Register" />
 
                     <TextView
+                        android:id="@+id/register"
                         style="@style/parent"
                         android:layout_marginTop="@dimen/loginViewsMargin"
                         android:text="Already have an account?"

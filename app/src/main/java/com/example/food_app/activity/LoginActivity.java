@@ -11,9 +11,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.food_app.MainActivity;
 import com.example.food_app.R;
+import com.example.food_app.model.User;
 import com.example.food_app.utils.Validation;
 import com.example.food_app.viewmodel.LoginViewModel;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
     private LoginViewModel loginViewModel;
@@ -55,15 +60,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
 
         AlertDialog alert = createAlertDialog(this);
-
-        loginViewModel.getLoginResponseLiveData(userName,passWord).observe(this, loginApiResponse -> {
-            if (!loginApiResponse.isError()) {
+        List<User> listUser = new ArrayList<User>();
+        for(User user:listUser){
+            if(user.getMobile().equals(mobile)&&user.getPassword().equals(passWord))
+            {
                 goToProductActivity();
             }else {
                 alert.dismiss();
-                Toast.makeText(this, loginApiResponse.getMessage(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Đăng nhập không thành công", Toast.LENGTH_SHORT).show();
             }
-        });
+        }
     }
 
     @Override
@@ -72,13 +78,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.cirLoginButton:
                 logInUser();
                 break;
+//            case R.id.register:
+//                startActivity(new Intent(this,SignUpActivity.class));
+//                overridePendingTransition(R.anim.slide_in_right,R.anim.stay);
+//                break;
             default: // Should not get here
         }
     }
 
     private void goToProductActivity() {
         Intent intent = new Intent(this, CartActivity.class);
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
     public void initView(){

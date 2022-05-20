@@ -20,7 +20,7 @@ public class IntroActivity extends AppCompatActivity {
         TimerTask nextActivity=new TimerTask() {
             @Override
             public void run() {
-                Intent i = new Intent(IntroActivity.this, LoginActivity.class);
+                Intent i = new Intent(IntroActivity.this, SignUpActivity.class);
                 startActivity(i);
             }
         };

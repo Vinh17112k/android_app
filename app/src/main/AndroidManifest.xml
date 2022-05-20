@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Food_app">
         <activity
+            android:name=".activity.NewFeedActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name="MainActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".activity.ShowDetailActivity"

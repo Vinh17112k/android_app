@@ -64,6 +64,7 @@ public class LoginUtils {
         return new User(
                 sharedPreferences.getInt(ID, -1),
                 sharedPreferences.getString(NAME, null),
+                sharedPreferences.getString(NAME, null),
                 sharedPreferences.getString(Mobile, null),
                 sharedPreferences.getString(PASSWORD, null),
                 sharedPreferences.getBoolean(IS_ADMIN, false)
